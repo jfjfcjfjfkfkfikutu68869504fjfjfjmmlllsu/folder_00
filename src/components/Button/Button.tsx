@@ -1,0 +1,1 @@
+import React from 'react'import './Button.scss'import { FC } from 'react'interface IButtonProps {    className?: string;}export const Button:FC<IButtonProps> = ({}) => {    return (        <div className="button">            View document        </div>    )};
